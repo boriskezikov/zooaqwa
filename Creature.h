@@ -20,14 +20,18 @@ protected:
 
     std::vector<int> current_coordinats;  // contains current object coords. i+j+k
 
-    int rang;
+    int rank;
 
 public:
+    Creature();
+
+
+
     virtual bool _eat() = 0; // returns True if full or False if still hungry
 
-    virtual bool _sex() = 0; // returns True if Successfully sexed or False if not
+    virtual bool _sex(); // returns True if Successfully sexed or False if not
 
-    virtual std::vector<int> _move() = 0;
+    virtual std::vector<int> _move();
 
     virtual bool _live () = 0;
 

@@ -10,6 +10,12 @@
 
 class plankton: virtual public Creature {
 private:
+    std::string name;
+public:
+    bool _eat() override;
+
+
+
 
 
 };
