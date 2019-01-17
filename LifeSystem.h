@@ -10,8 +10,7 @@ class LifeSystem {
 private:
     int GroundField [1000][1000][1000];
 public:
-    int Start_life(){
-    }
+
 
 
 

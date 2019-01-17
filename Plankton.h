@@ -8,7 +8,7 @@
 #include "Creature.h"
 
 
-class plankton: virtual public Creature {
+class plankton: public Creature {
 private:
     std::string name;
 public:

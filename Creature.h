@@ -33,7 +33,9 @@ public:
 
     virtual std::vector<int> _move();
 
-    virtual bool _live () = 0;
+    virtual bool _live ();
+
+    virtual void _objectInfo();
 
 
 };

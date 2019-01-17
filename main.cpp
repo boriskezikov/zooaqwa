@@ -3,6 +3,7 @@
 
 
 int main() {
-    plankton Evgen ;
+    plankton Evgen;
+    Evgen._objectInfo();
     return 0;
 }
